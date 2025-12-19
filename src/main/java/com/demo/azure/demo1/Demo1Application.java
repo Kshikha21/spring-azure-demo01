@@ -11,7 +11,7 @@ public class Demo1Application {
 
     @GetMapping("/message")
     public String message(){
-       return "Congrats ! your app deployed successfully in Azure!";
+       return "Congrats ! your application is deployed successfully in Azure Platform!";
     }
 
     public static void main(String[] args) {
